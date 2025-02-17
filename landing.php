@@ -6,13 +6,14 @@
     <title>V-Docs | Secure Vehicle Documents</title>
     <link rel="stylesheet" href="landing.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
 </head>
 <body>
 
     <!-- Navbar -->
     <header class="navbar">
-        <h1 class="logo">V-Docs</h1>
+        <div class="logo">
+            <img src="WhatsApp Image 2025-02-17 at 14.14.11_3da0eed9.jpg" alt="V-Docs">
+        </div>
         <nav class="nav-links">
             <a href="home.php">Go Back</a>
             <a href="#">Features</a>
@@ -20,7 +21,7 @@
             <a href="#">FAQs</a>  
             <a href="#">Dashboard</a>
             <a href="#">Contact</a>
-            <a href="vdocs.php" class=" login-btn">Login</a> <!-- Styled button -->
+            <a href="vdocs.php" class="login-btn">Login</a> 
         </nav>
     </header>
 
@@ -28,7 +29,7 @@
     <section class="hero">
         <h2>Manage Your Vehicle Documents Securely</h2>
         <p>Store, access, and verify your vehicle documents anytime, anywhere.</p>
-        <a href="dashboard.html" class="btn get-started-btn">Learn More</a> <!-- Styled button -->
+        <a href="dashboard.html" class="btn get-started-btn">Learn More</a>
     </section>
 
     <!-- Why Choose V-Docs Section -->
